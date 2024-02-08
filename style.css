@@ -1,0 +1,44 @@
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+table {
+  width: 50%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+form{
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  cursor: pointer;
+}

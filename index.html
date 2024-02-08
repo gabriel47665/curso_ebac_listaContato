@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <h1>Lista de Contatos</h1>
+    <form id="contatosForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" />
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" />
+
+        <button type="button" onclick=adicionarContato()>Cadastrar</button>
+    </form>
+
+<div class="container">
+    <table id="contatosTabela">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
